@@ -1,7 +1,7 @@
 <template>
   <div class="mb-24 md:mt-12 md:w-3/4 lg:w-1/2 md:mx-auto">
     <div class="mb-10 md:mb-16">
-      <div class="md:flex md:justify-between items-center title-bar px-4 pt-10 pb-6">
+      <div class="title-bar px-4 pt-10 pb-6">
         <NavigationBackButton />
         <h3 class="mb-2">{{ title }}</h3>
         <p class="date">{{ formatDate }}</p>

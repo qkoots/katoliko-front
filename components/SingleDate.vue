@@ -29,7 +29,7 @@
       </div>
 
       <ul 
-        v-if="liturgiaDayLink || liturgiaNightLink"
+        v-if="liturgiaDayLink"
         class="lg:w-8/12 xl:w-5/12 mx-auto flex flex-col">
         <NuxtLink
           v-if="liturgiaDayLink"
