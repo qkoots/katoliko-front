@@ -16,6 +16,10 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href:"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" }
     ],
+    script: [
+      { src: "https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX", async: true },
+      { src: "js/ga.js" }
+  ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
